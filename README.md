@@ -1,4 +1,4 @@
-##                                                              oPANDAo v1.0
+##  oPANDAo v1.0
 ### UPDATES(SooN):
 ####  FOR ANY SUGGESTION CONTACT :obsabs56@gmail.com
 ####  From @opandao (https://github.com/opandao-oo/oPANDAoPhishing.git)
@@ -28,7 +28,7 @@ Usage of BlackEye for attacking targets without prior mutual consent is illegal.
 ```
 git clone https://github.com/opandao-oo/oPANDAo.git
 ls
-oPANDAo
+oPANDAoPhishing
 bash opandao.sh
 
 ```
