@@ -7,7 +7,7 @@ clear
 echo ""
 echo ""
 echo ""
-read -p $'\e[1;40m\e[96m E D U C A T I O N A l  P U R P O S E S  O N L Y ? \e[1;91m (Y/N) : \e[0m' option
+read -p $'\e[1;40m\e[96m DO-YOU-KNOW-WHAT-I-AM-? \e[1;91m (Y/N) : \e[0m' option
 echo""
 echo""
 echo""
