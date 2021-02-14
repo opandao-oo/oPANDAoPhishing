@@ -27,29 +27,29 @@
 ======================================================================================
 -----------Customized Pages-------------♥♥♥-----------------New Pages-----------------
 
-♥♥♥FACEBOOK                                              ♥♥♥FLIPCART
+♥♥♥FACEBOOK==============================================♥♥♥FLIPCART
 
-♥♥♥GOOGLE                                                ♥♥♥TELEGRAM
+♥♥♥GOOGLE================================================♥♥♥TELEGRAM
 
-♥♥♥TWITTER                                               ♥♥♥iPFINDER
+♥♥♥TWITTER===============================================♥♥♥iPFINDER
 
-♥♥♥INSTAGRAM                                             ♥♥♥LIBERTPAY
+♥♥♥INSTAGRAM=============================================♥♥♥LIBERTPAY
 
-♥♥♥SNAPCHATM                                             ♥♥♥REDDIT
+♥♥♥SNAPCHATM=============================================♥♥♥REDDIT
 
-♥♥♥YAHOO                                                 ♥♥♥TIKTOK 
+♥♥♥YAHOO=================================================♥♥♥TIKTOK 
 
-♥♥♥LINKEDIN                                              ♥♥♥EXPERT-IQ
+♥♥♥LINKEDIN==============================================♥♥♥EXPERT-IQ
 
-♥♥♥MICROSOFT                                             ♥♥♥SNAPFISH
+♥♥♥MICROSOFT=============================================♥♥♥SNAPFISH
 
-♥♥♥APPLE-ID                                              ♥♥♥YOUTUBE
+♥♥♥APPLE-ID==============================================♥♥♥YOUTUBE
 
-♥♥♥PROTOMAIL                                             ♥♥♥WT-SOCIAL
+♥♥♥PROTOMAIL=============================================♥♥♥WT-SOCIAL
 
-♥♥♥WiFi                                                  ♥♥♥QUORA
+♥♥♥WiFi==================================================♥♥♥QUORA
 
-♥♥♥WORDPRESS                                             ♥♥♥WHATSAPP
+♥♥♥WORDPRESS=============================================♥♥♥WHATSAPP
 
 ♥♥♥BADOO    
 
