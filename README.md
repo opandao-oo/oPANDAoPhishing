@@ -1,4 +1,10 @@
-##  oPANDAo v1.0
+                        『o』『P』『A』『N』『D』『A』『o』  (っ◔◡◔)  『P』『H』『I』『S』『H』『I』『N』『G』
+
+======================================================================================
+                     C O N T A C T  ♥  I N F O R M A T I O N 
+======================================================================================
+
+
 ### UPDATES(SooN):
 ####  FOR ANY SUGGESTION CONTACT :obsabs56@gmail.com
 ####  From @opandao (https://github.com/opandao-oo/oPANDAoPhishing.git)
