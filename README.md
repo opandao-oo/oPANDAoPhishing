@@ -126,4 +126,11 @@ For opening this tool you need to give an answer in the beginning.
 ### Donate!
 Support the authors:
 
-<noscript><a href="https://liberapay.com/thelinuxchoice/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+<noscript><a href="https://paypal.me/pandagithub?locale.x=en_US"><i class="fab fa-cc-paypal"></i>
+  
+  
+[![Twitter Follow](https://img.shields.io/twitter/follow/opandao_oo?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=opandao_oo)
+
+
+
+
