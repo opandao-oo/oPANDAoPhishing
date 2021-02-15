@@ -117,7 +117,7 @@ ls
 oPANDAoPhishing
 bash opandao.sh
 --------------------------------------------------------------------------------------
-
+"S e c u r i t y   Q u e s t i o n   A l e r t   I n   T h e   b e g i n n i n g"
 --------------------------------------------------------------------------------------
                                  !OTP Bypass Instructions!
 When victim enter his credentials, you need to go to original website and use those
