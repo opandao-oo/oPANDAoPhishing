@@ -122,15 +122,16 @@ For opening this tool you need to give an answer in the beginning.
 
 😡 Don't try to copy new phishing pages from oPANDAophishing v1.0, Otherwise we will take a very strict action against you. THANK YOU ♥
 
+======================================================================================
 
-### Donate!
-Support the authors:
+                                                    ♥ S U P P O R T ♥
+                                                     
+======================================================================================
 
-<noscript><a href="https://paypal.me/pandagithub?locale.x=en_US"><i class="fab fa-cc-paypal"></i>
-  
-  
-[![Twitter Follow](https://img.shields.io/twitter/follow/opandao_oo?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=opandao_oo)
-
-
-
+<form action="https://paypal.me/pandagithub?locale.x=en_U" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="92TZKHPM5****">
+<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
 
