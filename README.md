@@ -16,11 +16,15 @@
   
 ======================================================================================
 
+++++++++++++++++++++++++++++++++++++++++![version](https://img.shields.io/badge/version-0.1-blue)+++++++++++++++++++++++++++++++++++++++
+
 🎀 oPANDAoPhishing v1.0
 
 🎀 Coded by  👉 @opandao-oo
 
 🎀 Tool Link 👉 https://github.com/opandao-oo/oPANDAoPhishing.git
+
++++++++++++++++++++++++++++++++++++++![downloads](https://img.shields.io/badge/downloads-13k%2Fmonth-brightgreen)+++++++++++++++++++++++++++++++++++++
 
 ======================================================================================
 
