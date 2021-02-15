@@ -112,7 +112,7 @@ Usage of oPANDAoPhishing for attacking targets without prior mutual consent is i
 ======================================================================================
 
 ```
-git clone https://github.com/opandao-oo/oPANDAo.git
+git clone https://github.com/opandao-oo/oPANDAoPhishing.git
 ls
 oPANDAoPhishing
 bash opandao.sh
