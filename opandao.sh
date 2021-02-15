@@ -51,7 +51,7 @@ printf "               \e[1;101m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[0m\e[1;0m Proto
 printf "               \e[1;101m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[0m\e[1;0m WiFi\e[0m          \e[1;101m[\e[0m\e[1;77m25\e[0m\e[1;92m]\e[0m\e[1;0m Amazon   \e[0m          \e[1;101m[\e[0m\e[1;77m39\e[0m\e[1;92m]\e[0m\e[1;0m WhatsApp\e[0m    \n"
 printf "               \e[1;101m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[0m\e[1;0m Wordpress\e[0m     \e[1;101m[\e[0m\e[1;77m26\e[0m\e[1;92m]\e[0m\e[1;0m iCloud   \e[0m          \e[1;101m[\e[0m\e[1;77m40\e[0m\e[1;92m]\e[0m\e[1;0m Flipcart\e[0m        \n"
 printf "               \e[1;101m[\e[0m\e[1;77m13\e[0m\e[1;92m]\e[0m\e[1;0m Badoo\e[0m         \e[1;101m[\e[0m\e[1;77m27\e[0m\e[1;92m]\e[0m\e[1;0m Spotify  \e[0m               \n"                                          
-printf "               \e[1;101m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;0m Shopify\e[0m       \e[1;101m[\e[0m\e[1;77m28\e[0m\e[1;92m]\e[0m\e[1;0m Netflix  \e[0m                \e[1;94m                               
+printf "               \e[1;101m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;0m Shopify\e[0m       \e[1;101m[\e[0m\e[1;77m28\e[0m\e[1;92m]\e[0m\e[1;0m Netflix  \e[0m                \e[1;94m         \n"                      
 
 
 read -p $'\n\e[1;0m[\e[0m\e[1;77m*\e[0m\e[1;77m] Choose an option: \e[93m\en' option 
