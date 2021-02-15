@@ -55,7 +55,7 @@
 
 ♥♥♥WiFi===============================♥♥♥QUORA
 
-♥♥♥WORDPRESS==========================♥♥♥WHATSAPP
+♥♥♥WORDPRESS
 
 ♥♥♥BADOO    
 
