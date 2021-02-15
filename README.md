@@ -117,7 +117,7 @@ ls
 oPANDAoPhishing
 bash opandao.sh
 --------------------------------------------------------------------------------------
-For opening this tool you need to give an answer in the beginning.
+
 --------------------------------------------------------------------------------------
                                  !OTP Bypass Instructions!
 When victim enter his credentials, you need to go to original website and use those
