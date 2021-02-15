@@ -128,5 +128,5 @@ For opening this tool you need to give an answer in the beginning.
                                                      
 ======================================================================================
 
-<a href="https://paypal.me/andreostrovsky/"><img src="blue.svg" height="40"></a>  
+<a href="https://paypal.me/pandagithub?locale.x=en_US"><img src="blue.svg" height="40"></a>  
 
