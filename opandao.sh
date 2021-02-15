@@ -277,7 +277,7 @@ printf "  \e[0m\e[1;77m         ================================================
 printf "  \e[0m\e[1;77m                E D U C A T I O N A L   P U R P O S E                   \e[0m\n"
 printf "  \e[0m\e[1;77m         ===================================================            \e[0m\n"
 printf "\n"
-printf "  \e[101m\e[1;77m                     |   T H A N K   Y O U    |                         \e[0m\n"
+printf "  \e[101m\e[1;77m                      |   T H A N K   Y O U    |                         \e[0m\n"
 printf "\n"
 }
 
